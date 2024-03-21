@@ -29,7 +29,7 @@ github:
   username: abhi-ingle # change to your github username
 
 twitter:
-  username: _arag0n # change to your twitter username
+  username: nyxhound # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   # email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/_arag0n # change to your twitter homepage
+    - https://twitter.com/nyxhound # change to your twitter homepage
     - https://github.com/abhi-ingle # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -76,7 +76,7 @@ theme_mode: # [light | dark]
 img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ../images/abhi_aragon_profile.jpeg
+avatar: ../images/profile.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

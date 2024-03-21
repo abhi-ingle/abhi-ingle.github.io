@@ -48,3 +48,17 @@ During my internship at VTF, I gained a proper understanding in the following ar
 ---
 
 # Education
+
+### [Pune Institute of Computer Technology](https://pict.edu) <span style="font-size:large;float: right;">Pune , India</span>
+
+> **BE-Information Technology Grade:8.84 <span style="float: right;">June 2020 - June 2024 </span> <br>**
+
+### [Vivekanand College](#) <span style="font-size:large;float: right;">Chatrapati Sambhajinagar , India</span>
+
+> **HSC: Percentage:93.23% <span style="float: right;">June 2018 - June 2020 </span> <br>**
+- **HSC Examination College Rank-1**
+- **HSC Examination State Subject Topper : Maths 100/100**
+
+### [Cambridge School](#) <span style="font-size:large;float: right;">Chatrapati Sambhajinagar , India</span>
+
+> **ICSE Percentage:93.4% <span style="float: right;">June 2008 - June 2018 </span> <br>**
