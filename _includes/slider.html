@@ -1,7 +1,7 @@
 {% assign images = site.data.sliders[include.slider_id] %}
 
 <div class="conference-slider" style="overflow: hidden; display: flex; justify-content: center;">
-  <div class="slides" style="display: flex; transition: transform 0.5s ease; width: 100%;">
+    <div class="slides" style="display: flex; transition: transform 0.5s ease; width: {{ images.size | times: 100 }}%;">
     {% for image in images %}
       <div class="slide" style="min-width: 100%; box-sizing: border-box; padding: 10px; background-color: #2e2e2e; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
         <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" style="width: 100%; height: 300px; object-fit: contain; border-radius: 8px; cursor: pointer;" />
@@ -22,58 +22,7 @@
   </div>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const sliders = document.querySelectorAll('.conference-slider .slides');
-
-    sliders.forEach((slides) => {
-      let currentSlide = 0;
-      const totalSlides = slides.children.length - 1;
-
-      setInterval(() => {
-        currentSlide++;
-
-        if (currentSlide > totalSlides) {
-          slides.style.transition = 'none'; // Disable transition for the jump
-          slides.style.transform = 'translateX(0)'; // Jump back to the first slide
-          currentSlide = 1; // Reset slide index
-          setTimeout(() => {
-            slides.style.transition = 'transform 0.5s ease'; // Re-enable the transition
-            slides.style.transform = `translateX(-${currentSlide * 100}%)`; // Move to the second slide
-          }, 20); // Small delay to ensure smooth transition
-        } else {
-          slides.style.transform = `translateX(-${currentSlide * 100}%)`; // Slide to the next image
-        }
-      }, 2000); // Change slide every 2 seconds
-    });
-
-    // Modal functionality
-    const modal = document.getElementById("imageModal");
-    const modalImage = document.getElementById("modalImage");
-    const closeModal = document.querySelector(".close");
-
-    // Attach click event to all images in slides
-    document.querySelectorAll('.conference-slider img').forEach((img) => {
-      img.addEventListener('click', function () {
-        modal.style.display = "flex"; // Show the modal
-        modalImage.src = this.src; // Set the modal image source
-        modalImage.alt = this.alt; // Set the modal image alt text
-      });
-    });
-
-    // Close modal when clicking on close (×)
-    closeModal.addEventListener('click', function () {
-      modal.style.display = "none"; // Hide the modal
-    });
-
-    // Close modal when clicking anywhere outside the modal content
-    window.addEventListener('click', function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none"; // Hide the modal
-      }
-    });
-  });
-</script>
+<script src="{{ '/assets/js/slider.js' | relative_url }}"></script>
 
 <style>
   /* Modal styles */
