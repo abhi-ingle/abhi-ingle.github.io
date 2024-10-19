@@ -1,7 +1,7 @@
 ---
 layout: default
 icon: fa-solid fa-briefcase
-order: 2
+order: 3
 ---
 
 # Work Experience
@@ -10,17 +10,23 @@ order: 2
 
 ### [Zeron](https://zeron.one) <span style="font-size:large;float: right;">Mumbai,India</span>
 
-> **Security Researcher Intern <span style="float: right;">August 2023 - Present </span><br>**
-My role as a Security Researcher Intern in the R&D Department of Zeron involves the following activities:
+> **Research and Development Associate <span style="float: right;">July 2024 - Present </span><br>**
+As an R&D Associate in the R&D Department at Zeron, my responsibilities included:
+- Planning and implementing various AI initiatives
+- Developing and implementing a Security Data Transformation Tool, followed by publishing a paper on it
+- Creating a custom Linux distribution for Zeron
+- Developing tools for the ASM platform
+
+> **Security Researcher Intern <span style="float: right;">August 2023 - June 2024 </span><br>**
+My role as a Security Researcher Intern in the R&D Department of Zeron involved the following activities:
 - Researching security in various technology disciplines
 - Proposing solutions for security-related issues
-- Developing tools for red teaming
+- Developing custom tools for features of Attack Surface Management (ASM) Platform
 
 > **Intern <span style="float: right;">April 2023 - July 2023</span><br>**
 My role as an intern at Zeron involved the following activities:
 - Performing **Web Application Penetration Testing** on client web application
-- Performing **Mobile Pentest** on client mobile application
-- Performing **Network Penetration** Testing on client network 
+- Performing **Mobile Pentest** on client mobile application 
 - Assisting **C-level Executives** with necessary Tasks
 - Providing **Technical Content** to the **Social Media Team**
 

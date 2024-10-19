@@ -16,20 +16,20 @@ timezone: Asia/Calcutta
 
 title: Abhijeet Ingle # the main title
 
-tagline: Security Researcher | Research and Development  # it will display as the sub-title
+tagline: a.k.a <b>nyxragon</b> <br> Exploring the Security Side of Tech! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Personal Portfolio website.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://abhi-ingle.github.io"
+url: "https://nyxragon.github.io"
 
 github:
-  username: abhi-ingle # change to your github username
+  username: nyxragon # change to your github username
 
 twitter:
-  username: nyxhound # change to your twitter username
+  username: nyxragon # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,8 +38,8 @@ social:
   # email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/nyxhound # change to your twitter homepage
-    - https://github.com/abhi-ingle # change to your github homepage
+    - https://twitter.com/nyxragon # change to your twitter homepage
+    - https://github.com/nyxragon # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/abhijeetingle1712
