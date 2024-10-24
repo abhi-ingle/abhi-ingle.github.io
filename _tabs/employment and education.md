@@ -13,7 +13,6 @@ order: 3
 > **Research and Development Associate <span style="float: right;">July 2024 - Present </span><br>**
 As an R&D Associate in the R&D Department at Zeron, my responsibilities included:
 - Planning and implementing various AI initiatives
-- Developing and implementing a Security Data Transformation Tool, followed by publishing a paper on it
 - Creating a custom Linux distribution for Zeron
 - Developing tools for the ASM platform
 
