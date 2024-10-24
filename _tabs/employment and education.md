@@ -14,13 +14,13 @@ order: 3
 As an R&D Associate in the R&D Department at Zeron, my responsibilities included:
 - Planning and implementing various AI initiatives
 - Creating a custom Linux distribution for Zeron
-- Developing tools for the ASM platform
+- Developing tools for the ASM (Attack Surface Management) platform
 
 > **Security Researcher Intern <span style="float: right;">August 2023 - June 2024 </span><br>**
 My role as a Security Researcher Intern in the R&D Department of Zeron involved the following activities:
 - Researching security in various technology disciplines
 - Proposing solutions for security-related issues
-- Developing custom tools for features of Attack Surface Management (ASM) Platform
+- Developing custom tools for features of ASM (Attack Surface Management)  Platform
 
 > **Intern <span style="float: right;">April 2023 - July 2023</span><br>**
 My role as an intern at Zeron involved the following activities:
